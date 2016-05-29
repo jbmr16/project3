@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Start.h"
+#import "AppDev.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([Start class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDev class]));
     }
 }

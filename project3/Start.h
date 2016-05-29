@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  project3
 //
 //  Created by System Administrator on 5/29/16.
@@ -7,19 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
 
-@interface Start : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
-
+@interface Start : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lblmssg;
+@property (weak, nonatomic) IBOutlet UIButton *btn1;
+@property (weak, nonatomic) IBOutlet UIButton *btn2;
+- (IBAction)btn1press:(id)sender;
+- (IBAction)btn2press:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imguser;
 
 @end
 
