@@ -6,13 +6,13 @@
 //  Copyright (c) 2016 maciel. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "Start.h"
 
-@interface AppDelegate ()
+@interface Start ()
 
 @end
 
-@implementation AppDelegate
+@implementation Start
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
